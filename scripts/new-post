@@ -1,0 +1,32 @@
+#!/bin/sh
+set -e
+
+main() {
+
+    if [ -z "$1" ]; then
+        echo 'must enter a subdir' >&2
+	exit 1
+    fi
+    
+    if [ -z "$2" ]; then 
+        echo 'must enter a post name' >&2
+	exit 1
+    fi
+
+    subdir="$1"
+    post_name="$2"
+    
+    set -ux
+    
+    post_dir="content/${subdir}"
+    
+    # todo: cli and dry run option
+    
+    # echo "$post_dir"
+    mkdir -p "$post_dir"
+    
+    # echo "${post_dir}/${post_name}.md"
+    hugo new "${post_dir}/${post_name}.md"
+}
+
+main ${@}
