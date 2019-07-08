@@ -22,11 +22,29 @@
     </item>
     
     <item>
+      <title>About</title>
+      <link>/posts/about/</link>
+      <pubDate>Sun, 07 Jul 2019 16:37:19 -0700</pubDate>
+      
+      <guid>/posts/about/</guid>
+      <description>More later&amp;hellip;</description>
+    </item>
+    
+    <item>
       <title>Bicycling From Portland to San Francisco</title>
       <link>/adventures/bicycling-from-portland-to-san-francisco/</link>
       <pubDate>Sun, 07 Jul 2019 16:37:19 -0700</pubDate>
       
       <guid>/adventures/bicycling-from-portland-to-san-francisco/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bicycling From Portland to San Francisco</title>
+      <link>/posts/bicycling-from-portland-to-san-francisco/</link>
+      <pubDate>Sun, 07 Jul 2019 16:37:19 -0700</pubDate>
+      
+      <guid>/posts/bicycling-from-portland-to-san-francisco/</guid>
       <description></description>
     </item>
     
