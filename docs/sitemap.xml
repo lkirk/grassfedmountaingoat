@@ -3,17 +3,29 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/adventures/2019-07-07_bicycling-from-portland-to-san-francisco/</loc>
+    <lastmod>2019-07-07T16:27:54-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/adventures/</loc>
+    <lastmod>2019-07-07T16:27:54-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2019-07-07T16:27:54-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/</loc>
     <priority>0</priority>
   </url>
   
