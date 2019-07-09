@@ -8,6 +8,8 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
 rssLimit = 10  # Maximum number of items in the RSS feed.
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
 
+baseURL = "/"
+
 [author]
   name = "grassfedmountaingoat"
 
@@ -20,7 +22,6 @@ copyright = "This work is licensed under a Creative Commons Attribution-NonComme
 #   # Categories are disabled by default.
 
 [params]
-
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
   dateformNum     = "2006-01-02"
