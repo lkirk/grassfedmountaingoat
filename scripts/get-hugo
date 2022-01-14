@@ -1,0 +1,7 @@
+#!/bin/sh
+
+if [ ! -x hugo ]; then
+    wget -O hugo_0.88.1.tar.gz https://github.com/gohugoio/hugo/releases/download/v0.88.1/hugo_0.88.1_Linux-64bit.tar.gz
+    tar -xzf hugo_0.88.1.tar.gz
+    rm hugo_0.88.1.tar.gz
+fi
